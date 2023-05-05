@@ -1,0 +1,73 @@
+body {
+	background-color:black;
+	padding:"0% 10% 0% 10%";
+}
+
+h1 {
+	color:white;
+	text-align:center;
+}
+
+h2 {
+	color:white;
+	text-align:center;
+}
+
+h3 {
+	color:white;
+	text-align:left;
+	margin-left:20px;
+}
+
+p {
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+
+.mainImg {
+	display: block;
+	margin-left: auto; 
+	margin-right:auto;
+	height: 300px;
+	border-radius: 20px;
+}
+
+@keyframes leftToRight {
+  0% {transform: translate(0px);}
+  50% {transform: translate(1500px);}
+  100% {transform: translate(0px);}
+}
+
+.gif{
+	animation-name: leftToRight;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	background-color:black;
+	border-width:0
+}
+
+.innerImage{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: white;
+}
+
+#smallImg {
+	height: 50px;
+	width: 50px;
+}

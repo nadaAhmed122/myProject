@@ -1,0 +1,51 @@
+body {
+	background-color:black;
+	padding:"0% 10% 0% 10%";
+}
+
+h1 {
+	color:white;
+	text-align:center;
+}
+
+h2 {
+	color:white;
+	text-align:center;
+}
+
+p {
+	color:white;
+	text-align:center
+}
+
+.mainImg {
+	display: block;
+	margin-left: auto; 
+	margin-right:auto;
+}
+
+.gif{
+	height: 200px;
+	width: 200px;
+	margin-left: 200px; 
+	border-radius: 8px;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: white;
+}
+
+#smallImg {
+	height: 50px;
+	width: 50px;
+}
